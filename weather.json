@@ -1,0 +1,50 @@
+{
+  "Chennai": {
+    "temperature_2m": 30,
+    "apparent_temperature": 32,
+    "relative_humidity_2m": 70,
+    "wind_speed_10m": 12,
+    "precipitation": 0,
+    "weather_code": 2
+  },
+  "Coimbatore": {
+    "temperature_2m": 28,
+    "apparent_temperature": 29,
+    "relative_humidity_2m": 65,
+    "wind_speed_10m": 10,
+    "precipitation": 0,
+    "weather_code": 1
+  },
+  "Madurai": {
+    "temperature_2m": 32,
+    "apparent_temperature": 34,
+    "relative_humidity_2m": 60,
+    "wind_speed_10m": 14,
+    "precipitation": 0,
+    "weather_code": 0
+  },
+  "Tiruchirappalli": {
+    "temperature_2m": 31,
+    "apparent_temperature": 33,
+    "relative_humidity_2m": 68,
+    "wind_speed_10m": 11,
+    "precipitation": 0,
+    "weather_code": 2
+  },
+  "Salem": {
+    "temperature_2m": 29,
+    "apparent_temperature": 30,
+    "relative_humidity_2m": 66,
+    "wind_speed_10m": 9,
+    "precipitation": 0,
+    "weather_code": 1
+  },
+  "Puducherry": {
+    "temperature_2m": 30,
+    "apparent_temperature": 33,
+    "relative_humidity_2m": 75,
+    "wind_speed_10m": 16,
+    "precipitation": 0,
+    "weather_code": 2
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Check Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Information</h1>
+        <a href="index.html">Home</a>
+    </header>
+    <div class="weather-container">
+        <div class="weather-box">
+            <h2>Check Current Weather</h2>
+            <label for="stateSelect">
+                Select State / Union Territory
+            </label>
+            <select id="stateSelect"
+                    onchange="loadCities()">
+                <option value="">
+                    -- Select State / UT --
+                </option>
+                <option value="Tamil Nadu">
+                    Tamil Nadu
+                </option>
+                <option value="Puducherry">
+                    Puducherry
+                </option>
+            </select>
+            <label for="citySelect">
+                Select City
+            </label>
+            <select id="citySelect">
+                <option value="">
+                    -- Select City --
+                </option>
+            </select>
+            <button onclick="getWeather()" class="btn">
+                Get Weather
+            </button>
+            <div id="loading"></div>
+            <div id="weatherResult"
+                 class="weather-result">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
